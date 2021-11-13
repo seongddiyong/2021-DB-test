@@ -7,6 +7,7 @@
 2. Table = STUDENT
 3. Table::Student
     - 이 테이블의 필드에는 학번, 이름, 전공, 학년, 입학날짜, e-mail이 들어가있고, 2명에 대한 정보가 입력이 돼있다.
+- 단순한 사용자 정보를 나타내주는 테이블.
 
 <span style="color:red">**STUDENT**</span>
 
@@ -20,7 +21,8 @@ id|name|major|grade|ad_date|email
 ## **8주차 DB TABLE**
 1. DATABASE = week8
 2. Table = employee / department / projects / works_on / dept_location / dependent
-- 사원, 부서, 프로젝트, 업무시간, 부서위치, 부양가족 등이 있음.
+- 사원 정보, 부서 정보, 프로젝트, 업무시간, 부서위치, 부양가족 등이 있음.
+- 하나의 mini world를 표현한 DB이고, 각 테이블은 PK, FK로 연결되어있다.
 
 <span style="color:red">**DEPARTMENT**</span>
 Dname|Dnumber|Mgr_ssn|Mgr_start_date
@@ -83,6 +85,7 @@ Essn | Pno | Hours
     - department - 과, 과번호
     - ict - 정통과 학생들
     - user - ID와 Password, 권한이 있음.
+- 로그인하여 각 권한이 있는 계정으로 무언가를 삭제하거나 수정할 수 있고, 학과와 과에 해당하는 학생들을 보여줌.
 
 <span style="color:red">**DEPARTMENT**</span>
 | Dname          | Dnumber |
